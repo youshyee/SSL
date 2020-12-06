@@ -13,7 +13,6 @@ from lib.dataset import build_dataloader
 from mmcv.runner import get_dist_info
 import tempfile
 import shutil
-from yxy.debug import dprint
 
 
 def collect_results(result_part, size, tmpdir=None):
